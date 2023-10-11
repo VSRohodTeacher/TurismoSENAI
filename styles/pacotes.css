@@ -1,0 +1,67 @@
+main{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(112, 22, 131);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#sectionItens{
+    width: 100%;
+    background-color: rgb(52, 202, 187);
+    /* configuração padrão: topo, esquerda e em coluna */
+    display: flex; /* muda a maneira de mostrar no navegador  */
+    /* row - linha */
+    /* column - coluna */
+    /* reverse - inverso */
+    flex-direction: row; /*, muda a direção do flex box */
+    justify-content: space-around;/*, muda a orientação horizontal */
+    align-items: center;/*, muda a orientação vertical */
+    flex-wrap: wrap;/*, evita distorção dos elementos */
+    gap: 20px; /*, gap é margem entre elementos */ 
+
+}
+
+.item{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    background-color: rgb(242, 242, 242);
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.itemImagem{
+    width: 100%;
+    height: 50%;
+}
+
+.itemImagem img{
+    width: 100%;
+    height: 100%;
+}
+
+.itemDescricao{
+    width: 100%;
+    height: 50%;
+}
+
+.itemDescricao h3{
+    margin: 10px 0px;
+    color: rgb(126, 3, 174);
+}
+
+.itemDescricao p{
+    color: gray;
+    margin: 20px 0px;
+}
+
+.itemValor{
+    font-size: 14pt;
+    color: rgb(0, 104, 0);
+    font-weight: bold;
+}
